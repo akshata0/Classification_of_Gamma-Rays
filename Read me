@@ -1,0 +1,59 @@
+This project compares Support Vector Machine (SVM) and Random Forest classifiers on the MAGIC Gamma Telescope dataset. The goal is to classify high-energy gamma particles and hadrons based on 10 real-valued features.
+
+Name: MAGIC Gamma Telescope
+
+Source: UCI Machine Learning Repository
+
+Target classes:
+
+g: Gamma rays
+
+h: Hadrons (background noise)
+
+Data Preprocessing:
+
+Outlier detection
+
+Feature scaling (for SVM)
+
+Label encoding
+
+Exploratory Data Analysis:
+
+Feature distribution plots
+
+Correlation heatmap
+
+Feature importance (Random Forest)
+
+Model Comparison:
+
+Support Vector Machine (SVM)
+
+Random Forest Classifier
+
+GridSearchCV for hyperparameter tuning
+
+✅ Results
+Best Model: Random Forest
+
+Accuracy: 88.1%
+
+Best Parameters:
+
+json
+Copy
+Edit
+{
+  "n_estimators": 100,
+  "max_depth": None,
+  "random_state": None
+}
+Conclusion: Random Forest performed better, likely due to its ability to handle feature interactions and outliers more effectively than SVM.
+
+
+
+
+
+
+
